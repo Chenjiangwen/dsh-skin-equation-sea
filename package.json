@@ -1,0 +1,33 @@
+{
+  "name": "dsh-skin-equation-sea",
+  "version": "1.0.0",
+  "description": "《方程星海 Equation Sea》— DSH Web GUI 透明主题皮肤：黑洞吸积盘 + 公式星流，暗色黑玻璃 / 亮色羊皮卷",
+  "license": "CC0-1.0",
+  "type": "module",
+  "files": [
+    "skin.json",
+    "skin.css",
+    "patches.css",
+    "assets",
+    "preview",
+    "NOTICE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-skin",
+    "deepseek-harness",
+    "theme",
+    "space",
+    "black-hole",
+    "glass",
+    "transparent"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "skin": {
+      "manifest": "./skin.json"
+    }
+  }
+}
